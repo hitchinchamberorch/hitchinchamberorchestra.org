@@ -1,0 +1,360 @@
+:root {
+  --color-purple: #B33CA7;
+  --color-blue: #3F85C4;
+  --color-yellow: #EEDF59;
+  --color-red: #ED6152;
+  --color-green: #71B072;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  color: #f0f0f0;
+  line-height: 1.4em;
+}
+
+:root {
+  --gap-size: 2em;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+nav {
+  background-color: rgba(1, 1, 1, 0.95);
+  backdrop-filter: blur(3px);
+  color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 0 4em 0 rgba(1, 1, 1, 1);
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  width: 72em;
+  height: 6em;
+  margin: 0 auto;
+}
+
+.nav-logo>img {
+  max-height: 4em;
+}
+
+a {
+  color: #f0f0f0;
+}
+
+a:hover {
+  color: yellow;
+
+}
+
+a:active {
+  color: red;
+}
+
+a:link {
+  color: #f0f0f0;
+}
+
+a:visited {
+  color: #f0f0f0;
+}
+
+a.nav-link {
+  color: #f0f0f0;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+a.nav-link:hover {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+a.nav-link:active {
+  color: red;
+}
+
+a.nav-link:link {
+  color: #f0f0f0;
+}
+
+a.nav-link:visited {
+  color: #f0f0f0;
+}
+
+.nav-link+.nav-link {
+  margin-left: 2em;
+}
+
+.h-strut {
+  margin-left: auto;
+}
+
+.container {
+  padding-top: var(--gap-size);
+  padding-bottom: var(--gap-size);
+  width: 72em;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: var(--gap-size);
+  grid-row-gap: var(--gap-size);
+  column-gap: var(--gap-size);
+  row-gap: var(--gap-size);
+}
+
+article {
+  background-color: rgba(1, 1, 1, 0.80);
+  backdrop-filter: blur(3px);
+  padding: 1em var(--gap-size) var(--gap-size) var(--gap-size);
+  border-radius: 0.5em;
+
+  box-shadow: 0 0 2em 0 rgba(1, 1, 1, 1);
+}
+
+.page {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+.home {
+  background-image: url(/images/home/DSC_0065.jpg);
+}
+
+.home>.container {
+  grid-template-areas: "a a c"
+    "b b d";
+}
+
+.concerts {
+  background-image: url(/images/home/DSC_0366.jpg);
+
+}
+
+.concerts>.container {
+  grid-template-areas: "a a c"
+    "b b b";
+}
+
+.about {
+  background-image: url(/images/home/DSC_0189.jpg);
+}
+
+.about>.container {
+  grid-template-areas:
+    "a a b";
+}
+
+.contact {
+  background-image: url(/images/home/DSC_0094.jpg);
+}
+
+.contact>.container {
+  grid-template-areas:
+    "a a c"
+    "b b c";
+}
+
+.members {
+  background-image: url(/images/home/IMG_0303.jpg);
+}
+
+.members>.container {
+  grid-template-areas:
+    "a a a";
+}
+
+
+.rehearsals th,
+.rehearsals td {
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+.rehearsals .date, .rehearsals .time, .rehearsals .venue{
+  white-space: nowrap;
+}
+
+.scrollable {
+  overflow-x: auto;
+  overscroll-behavior: contain;
+}
+
+blockquote {
+  margin: 1em 0;
+}
+
+.button {
+  background-color: var(--color-purple);
+  border-radius: 0.25em;
+  padding: 0.5em var(--gap-size);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 1em;
+  list-style: none;
+}
+
+li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+li:nth-of-type(n+1)::before {
+  color: var(--color-purple);
+}
+
+li:nth-of-type(n+2)::before {
+  color: var(--color-blue);
+}
+
+li:nth-of-type(n+3)::before {
+  color: var(--color-green);
+}
+
+li:nth-of-type(n+4)::before {
+  color: var(--color-yellow);
+}
+
+li:nth-of-type(n+5)::before {
+  color: var(--color-red);
+}
+
+li:nth-of-type(5n+1)::before {
+  color: var(--color-purple);
+}
+
+li:nth-of-type(5n+2)::before {
+  color: var(--color-blue);
+}
+
+li:nth-of-type(5n+3)::before {
+  color: var(--color-green);
+}
+
+li:nth-of-type(5n+4)::before {
+  color: var(--color-yellow);
+}
+
+li:nth-of-type(5n+5)::before {
+  color: var(--color-red);
+}
+
+.photo {
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+.poster {
+  float: right;
+  width: 16em;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --gap-size: 1em;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .nav-content {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 8em;
+  }
+
+  .nav-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-logo>img {
+    max-height: 4em;
+  }
+
+  .nav-link+.nav-link {
+    margin-left: 1em;
+  }
+
+  .container {
+    width: 100%;
+    padding: var(--gap-size);
+  }
+
+  .home>.container {
+    grid-template-areas:
+      "a a a"
+      "c c c"
+      "d d d"
+      "b b b";
+  }
+
+  .concerts>.container {
+    grid-template-areas:
+      "a a a"
+      "c c c"
+      "d d d"
+      "b b b";
+
+    .poster {
+      width: 8em;
+    }
+  }
+
+  .about>.container {
+    grid-template-areas:
+      "a a a"
+      "b b b";
+  }
+
+  .contact>.container {
+    grid-template-areas:
+      "a a a"
+      "b b b"
+      "c c c";
+  }
+
+  .members>.container {
+    grid-template-areas:
+      "a a a";
+  }
+}

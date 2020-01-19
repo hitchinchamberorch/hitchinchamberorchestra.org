@@ -1,0 +1,662 @@
+[
+  {
+    "season": "2019/2020",
+    "name": "",
+    "description": "",
+    "date": "2020-07-04T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "ticketsUrl": "",
+    "programme": [
+      {
+        "composer": "",
+        "title": "",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2019/2020",
+    "name": "The Silver Chain of Sound",
+    "description": "",
+    "date": "2020-03-21T19:30:00",
+    "venue": {
+      "name": "Hitchin Town Hall",
+      "address": ["Brand Street", "Hitchin", "SG5 1JE"]
+    },
+    "ticketsUrl": "",
+    "programme": [
+      {
+        "composer": "Vaughan Williams",
+        "title": "The Lark Ascending",
+        "notes": ""
+      },
+      {
+        "composer": "Warlock",
+        "title": "Capriol Suite",
+        "notes": "" 
+      },
+      {
+        "composer": "Holst",
+        "title": "A Moorside Suite",
+        "notes": ""
+      },
+      {
+        "composer": "Gershwin",
+        "title": "Lullaby",
+        "notes": ""
+      },
+      {
+        "composer": "Hindemith",
+        "title": "Five Pieces for String Orchestra",
+        "notes": "three movements"
+      }
+    ]
+  },
+  {
+    "season": "2019/2020",
+    "name": "Before the Romance",
+    "description": "An evening of music from the classical era to include Beethoven’s beautiful Romance in F for violin and orchestra.",
+    "date": "2019-11-16T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "ticketsUrl": "https://www.eventbrite.co.uk/e/before-the-romance-tickets-74605457933",
+    "programme": [
+      {
+        "composer": "Haydn",
+        "title": "Symphony No. 8 - Le Soire",
+        "notes": ""
+      },
+      {
+        "composer": "Beethoven",
+        "title": "Romance in F",
+        "notes": ""
+      },
+      {
+        "composer": "Mozart",
+        "title": "Adagio and Fugue",
+        "notes": "Strings only"
+      },
+      {
+        "composer": "CPE Bach",
+        "title": "Symphony in E minor, WQ178",
+        "notes": ""
+      },
+      {
+        "composer": "Schubert",
+        "title": "Entr'Acte No. 5 from Rosamunde, D797",
+        "notes": ""
+      }
+    ],
+    "conductor": "David Murphy"
+  },
+  {
+    "season": "2018/2019",
+    "name": "A Festival of English Music",
+    "description": "Including Vaughan Williams’ Fantasia on a theme by Thomas Tallis, Elgar’s beautiful Serenade for Strings and the Malcolm Arnold first Flute Concerto with Emma Halnan, winner of the BBC Young Musician Woodwind category, 2010.",
+    "date": "2019-07-13T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "ticketsUrl": "https://www.eventbrite.co.uk/e/festival-of-english-music-tickets-61064808486?ref=website",
+    "programme": [
+      {
+        "composer": "Vaughan Williams",
+        "title": "Fantasia on a Theme by Thomas Tallis",
+        "notes": ""
+      },
+      {
+        "composer": "John Ireland",
+        "title": "Concertino Pastorale",
+        "notes": ""
+      },
+      {
+        "composer": "Malcolm Arnold",
+        "title": "Flute Concerto No. 1",
+        "notes": "With soloist Emma Halnan"
+      },
+      {
+        "composer": "Edward Elgar",
+        "title": "Serenade for Strings",
+        "notes": ""
+      },
+      {
+        "composer": "Gerald Finzi",
+        "title": "Preludein F minor",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2018/2019",
+    "name": "From Russia with Love",
+    "description": "",
+    "date": "2019-03-23T19:30:00",
+    "venue": {
+      "name": "Town Hall, Hitchin",
+      "address": ["Brand Street", "Hitchin", ""]
+    },
+    "ticketsUrl": "",
+    "programme": [
+      {
+        "composer": "Tchaikovsky",
+        "title": "Waltz from Serenade for Strings",
+        "notes": ""
+      },
+      {
+        "composer": "Tchaikovsky",
+        "title": "Adagio from Souvenir de Florence",
+        "notes": ""
+      },
+      {
+        "composer": "Scriabin",
+        "title": "Adante",
+        "notes": ""
+      },
+      {
+        "composer": "Kalinnikov",
+        "title": "Serenade",
+        "notes": ""
+      },
+      {
+        "composer": "Shostakovich",
+        "title": "Romance from the Gadfly",
+        "notes": ""
+      },
+      {
+        "composer": "Glazunov",
+        "title": "Saxophone Concerto",
+        "notes": ""
+      },
+      {
+        "composer": "Rachmaninov",
+        "title": "Vocalise",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2018/2019",
+    "name": "Family Christmas Concert",
+    "description": "A festive programme combining The Priory School's youthful voices with the luscious string sound of the HCO.",
+    "date": "2018-12-15T14:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": []
+  },
+  {
+    "season": "2018/2019",
+    "name": "Concertos by Candlelight",
+    "description": "",
+    "date": "2018-11-10T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Bach",
+        "title": "Suite No. 2 BVW 1067 for Flute and Strings",
+        "notes": ""
+      },
+      {
+        "composer": "Cimarosa",
+        "title": "Oboe Concerto in C minor",
+        "notes": ""
+      },
+      {
+        "composer": "Vivaldi",
+        "title": "Concerto in B minor for Four Violins",
+        "notes": ""
+      },
+      {
+        "composer": "Vivaldi",
+        "title": "Concerto in G minor for Two Cellos",
+        "notes": ""
+      },
+      {
+        "composer": "Wilhelmine Von Bayreuth",
+        "title": "Harpsichord Concerto in G minor",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2017/2018",
+    "name": "Summer Jazz Concert",
+    "description": "",
+    "date": "2018-06-23T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Quincy Jones",
+        "title": "Soul Bossa Nova and Quintessence",
+        "notes": ""
+      },
+      {
+        "composer": "Amy Winehouse",
+        "title": "Back to Black",
+        "notes": ""
+      },
+      {
+        "composer": "Sade/Ray St John",
+        "title": "Smooth Operator",
+        "notes": ""
+      },
+      {
+        "composer": "Gershwin/DuBose Heyward",
+        "title": "Summertime",
+        "notes": ""
+      },
+      {
+        "composer": "Zequinha de Abreu",
+        "title": "Tico Tico",
+        "notes": ""
+      },
+      {
+        "composer": "Nacio Herb Brown",
+        "title": "Temptation",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2017/2018",
+    "name": "Spring Concert",
+    "description": "",
+    "date": "2018-03-17T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Handel",
+        "title": "Concerto Grosso Op.6 No.8",
+        "notes": ""
+      },
+      {
+        "composer": "Telemann",
+        "title": "Horn Concerto in D TWV 51:D8",
+        "notes": ""
+      },
+      {
+        "composer": "Dvorak",
+        "title": "Waltzes Op.54",
+        "notes": "Nos.1 & 4"
+      },
+      {
+        "composer": "Walton",
+        "title": "Two Pieces for Strings from Henry 5th Suite: Passacaglia - Death of Falstaff; Touch Her Soft Lips and Part",
+        "notes": ""
+      },
+      {
+        "composer": "Britten",
+        "title": "Serenade for Tenor, Horn and Strings",
+        "notes": "Soloists: Ben Goldscheider (Horn) and Andrew Sutherland (Tenor)"
+      }
+    ]
+  },
+  {
+    "season": "2017/2018",
+    "name": "Autumn Concert",
+    "description": "",
+    "date": "2017-11-04T19:30:00",
+    "venue": {
+      "name": "Town Hall, Hitchin",
+      "address": ["Brand Street", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Elgar",
+        "title": "Introduction and Allegro",
+        "notes": ""
+      },
+      {
+        "composer": "Tchaikovsky",
+        "title": "Serenade for Strings",
+        "notes": "Two movements"
+      },
+      {
+        "composer": "Dag Wiren",
+        "title": "Serenade for Strings",
+        "notes": ""
+      },
+      {
+        "composer": "Finzi",
+        "title": "Romance for String Orchestra",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2016/2017",
+    "name": "Evening Concert - Bach by Candlelight",
+    "description": "",
+    "date": "2017-07-08T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "J.S. Bach",
+        "title": "Brandenburg Concerto No.5 in D, BWV 1058",
+        "notes": ""
+      },
+      {
+        "composer": "J.S. Bach",
+        "title": "Cantata for Soprano, Oboe, Strings and Continuo, BWV 84",
+        "notes": ""
+      },
+      {
+        "composer": "J.S. Bach",
+        "title": "Brandenburg Concerto No.3 in G, BWV 1048",
+        "notes": ""
+      },
+      {
+        "composer": "J.S. Bach",
+        "title": "Concerto for two violins in D minor, BWV 1043",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2016/2017",
+    "name": "Afternoon Concert - Music for Strings and Harp",
+    "description": "",
+    "date": "2017-07-08T14:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Mahler",
+        "title": "Adagietto from Symphony No.5",
+        "notes": ""
+      },
+      {
+        "composer": "Vaughan Williams",
+        "title": "Dives and Lazarus",
+        "notes": ""
+      },
+      {
+        "composer": "Holst",
+        "title": "St Paul's Suite",
+        "notes": ""
+      },
+      {
+        "composer": "Debussy",
+        "title": "Danses Sacrée and Profane",
+        "notes": ""
+      },
+      {
+        "composer": "Leroy Anderson",
+        "title": "Fiddle Faddle",
+        "notes": ""
+      },
+      {
+        "composer": "Giovanni Dettori",
+        "title": "Lady Gaga Fugue",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2016/2017",
+    "name": "Spring Concert",
+    "description": "",
+    "date": "2017-03-25T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Britten",
+        "title": "Simple Symphony Op.4",
+        "notes": ""
+      },
+      {
+        "composer": "W. A. Mozart",
+        "title": "Eine kleine Nachtmusik",
+        "notes": ""
+      },
+      {
+        "composer": "Badelt Arr. Ricketts",
+        "title": "Pirates of the Caribbean",
+        "notes": ""
+      },
+      {
+        "composer": "Karl Jenkins",
+        "title": "Palladio",
+        "notes": "1st movement"
+      },
+      {
+        "composer": "Paul Lewis",
+        "title": "Rosa Mundi",
+        "notes": ""
+      },
+      {
+        "composer": "Piazzolla Arr. Kazik",
+        "title": "Libertango",
+        "notes": ""
+      },
+      {
+        "composer": "Kuchler",
+        "title": "Concertino in D Op.15",
+        "notes": ""
+      },
+      {
+        "composer": "Trad. Arr. Julie Lyonn Liebermann",
+        "title": "Celtic Butterfly",
+        "notes": ""
+      },
+      {
+        "composer": "Strauss",
+        "title": "Pizzicato Polka",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2016/2017",
+    "name": "Autumn Concert",
+    "description": "",
+    "date": "2016-11-12T19:30:00",
+    "venue": {
+      "name": "Town Hall, Hitchin",
+      "address": ["Brand Street", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Popper",
+        "title": "Requiem for Three Cellos",
+        "notes": ""
+      },
+      {
+        "composer": "John Williams",
+        "title": "Theme from Schindler's List",
+        "notes": ""
+      },
+      {
+        "composer": "Vaughan Williams",
+        "title": "Charterhouse Suite",
+        "notes": ""
+      },
+      {
+        "composer": "John Rutter",
+        "title": "Suite for Strings",
+        "notes": ""
+      },
+      {
+        "composer": "Purcell",
+        "title": "Chacony",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2015/2016",
+    "name": "Summer Concert",
+    "description": "",
+    "date": "2016-07-09T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Sibelius",
+        "title": "Andante Festivo",
+        "notes": ""
+      },
+      {
+        "composer": "Poulenc",
+        "title": "Concerto for Organ, Strings and Timpani",
+        "notes": ""
+      },
+      {
+        "composer": "Mendelssohn",
+        "title": "String Symphony No. 7",
+        "notes": ""
+      },
+      {
+        "composer": "Bartok",
+        "title": "Romanian Dances",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "season": "2015/2016",
+    "name": "Spring Concert",
+    "description": "",
+    "date": "2016-03-05T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Corelli",
+        "title": "Christmas Concerto",
+        "notes": ""
+      },
+      {
+        "composer": "J.S. Bach",
+        "title": "Brandenberg Concerto No.4",
+        "notes": ""
+      },
+      {
+        "composer": "Ireland",
+        "title": "Minuet from the Downland Suite",
+        "notes": ""
+      },
+      {
+        "composer": "Suk",
+        "title": "Serenade for Strings",
+        "notes": ""
+      },
+      {
+        "composer": "Jeffes",
+        "title": "Perpetuum Mobile",
+        "notes": "Penguin Cafe"
+      }
+    ]
+  },
+  {
+    "season": "2015/2016",
+    "name": "Autumn Concert",
+    "description": "",
+    "date": "2015-11-07T19:30:00",
+    "venue": {
+      "name": "St Mary's Church, Hitchin",
+      "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
+    },
+    "programme": [
+      {
+        "composer": "Grieg",
+        "title": "Elegiac Melodies",
+        "notes": ""
+      },
+      {
+        "composer": "Vivaldi",
+        "title": "Autumn from the Four Seasons",
+        "notes": ""
+      },
+      {
+        "composer": "Boyce",
+        "title": "Symphony No.4 in F",
+        "notes": ""
+      },
+      {
+        "composer": "Warlock",
+        "title": "Capriol Suite",
+        "notes": ""
+      },
+      {
+        "composer": "Elgar",
+        "title": "Serenade for Strings",
+        "notes": ""
+      },
+      {
+        "composer": "Grainger",
+        "title": "Molly On The Shore",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "name": "Inaugural Concert",
+    "description": "",
+    "date": "2015-07-12T14:30:00",
+    "venue": {
+      "name": "Tilehouse Baptist Church, Hitchin",
+      "address": []
+    },
+    "programme": [
+      {
+        "composer": "Grieg",
+        "title": "Holberg Suite",
+        "notes": ""
+      },
+      {
+        "composer": "Vaughan-Williams",
+        "title": "Fantasia on a Theme of Thomas Tallis",
+        "notes": ""
+      },
+      {
+        "composer": "Boyce",
+        "title": "Symphony No.1 in B flat",
+        "notes": ""
+      },
+      {
+        "composer": "Mozart",
+        "title": "Divertimento in F",
+        "notes": ""
+      },
+      {
+        "composer": "Corelli",
+        "title": "Concerto Grosso No.4 in D",
+        "notes": ""
+      },
+      {
+        "composer": "Vivaldi",
+        "title": "Concerto for four violins and cello in B minor",
+        "notes": "Op.3 No.10"
+      }
+    ]
+  }
+]

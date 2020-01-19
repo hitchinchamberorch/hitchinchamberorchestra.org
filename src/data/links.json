@@ -1,0 +1,21 @@
+[
+  { "name": "Benslow Music", "url": "http://www.benslowmusic.org" },
+  {
+    "name": "Hitchin Symphony Orchestra",
+    "url": "http://www.hitchinsymphony.org.uk"
+  },
+  { "name": "North Herts Guild of Singers", "url": "http://www.nhgs.org.uk" },
+  {
+    "name": "The Music Train",
+    "url": "http://www.musictrain.co.uk/classes/hitchin/",
+    "notes": "For our younger fans!"
+  },
+  {
+    "name": "The Orpheus Choir of North Herts",
+    "url": "http://www.orpheusnorthherts.com"
+  },
+  {
+    "name": "Weston Music Society",
+    "url": "http://www.westonmusicsociety.org.uk"
+  }
+]
