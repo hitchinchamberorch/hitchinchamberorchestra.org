@@ -1,11 +1,11 @@
 import React, { FunctionComponent } from 'react';
-import eventsData from './data/events.json';
-import { PastEvent } from './components/PastEvent';
-import { FutureEvent } from './components/FutureEvent';
-import { NextEvent } from './components/NextEvent';
-import { Navbar } from './components/Navbar';
+import eventsData from '../data/events.json';
+import { PastEvent } from '../components/PastEvent';
+import { FutureEvent } from '../components/FutureEvent';
+import { NextEvent } from '../components/NextEvent';
+import { Navbar } from '../components/Navbar';
 
-export const Concerts: FunctionComponent = () => {
+function Concerts() {
   const now = Date.now();
   const pastEvents = eventsData
     .filter(event => new Date(event.date).getTime() < now)
@@ -87,4 +87,6 @@ export const Concerts: FunctionComponent = () => {
       </div>
     </div>
   );
-};
+}
+
+export default Concerts;

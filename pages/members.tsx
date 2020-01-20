@@ -1,7 +1,11 @@
 import React, { FunctionComponent } from 'react';
-import rehearsalData from './data/rehearsals.json';
-import { formatLongDate, formatAbbrDate, format12HourTime } from './utils/date';
-import { Navbar } from './components/Navbar';
+import rehearsalData from '../data/rehearsals.json';
+import {
+  formatLongDate,
+  formatAbbrDate,
+  format12HourTime
+} from '../utils/date';
+import { Navbar } from '../components/Navbar';
 
 interface RehearsalDetails {
   dateFrom: string;
@@ -42,7 +46,7 @@ const RehearsalItem: FunctionComponent<RehearsalDetails> = ({
   );
 };
 
-export const Members: FunctionComponent = () => {
+function Members() {
   const now = Date.now();
   const pastEvents = rehearsalData
     .filter(event => new Date(event.date).getTime() < now)
@@ -65,8 +69,8 @@ export const Members: FunctionComponent = () => {
           <p>
             For
             <strong> {nextEvent.name} </strong>
-            on <strong>{formatLongDate(nextEvent.date)}</strong>,
-            rehearsals will take place as follows:
+            on <strong>{formatLongDate(nextEvent.date)}</strong>, rehearsals
+            will take place as follows:
           </p>
           <div className="scrollable">
             <table className="rehearsals">
@@ -91,4 +95,6 @@ export const Members: FunctionComponent = () => {
       </div>
     </div>
   );
-};
+}
+
+export default Members;

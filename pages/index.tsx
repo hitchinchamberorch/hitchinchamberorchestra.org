@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from 'react';
-import { Navbar } from './components/Navbar';
-import eventsData from './data/events.json';
-import { NextEvent } from './components/NextEvent';
+import { Navbar } from '../components/Navbar';
+import eventsData from '../data/events.json';
+import { NextEvent } from '../components/NextEvent';
 
-export const Home: FunctionComponent = () => {
+function Home() {
   const now = Date.now();
   const pastEvents = eventsData
     .filter(event => new Date(event.date).getTime() < now)
@@ -73,4 +73,6 @@ export const Home: FunctionComponent = () => {
       </div>
     </div>
   );
-};
+}
+
+export default Home;

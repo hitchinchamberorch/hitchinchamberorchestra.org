@@ -1,9 +1,11 @@
 :root {
-  --color-purple: #B33CA7;
-  --color-blue: #3F85C4;
-  --color-yellow: #EEDF59;
-  --color-red: #ED6152;
-  --color-green: #71B072;
+  --color-purple: #b33ca7;
+  --color-blue: #3f85c4;
+  --color-yellow: #eedf59;
+  --color-red: #ed6152;
+  --color-green: #71b072;
+
+  --gap-size: 2em;
 }
 
 * {
@@ -11,8 +13,7 @@
 }
 
 html,
-body,
-#root {
+body {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -27,10 +28,6 @@ body {
   margin: 0;
   color: #f0f0f0;
   line-height: 1.4em;
-}
-
-:root {
-  --gap-size: 2em;
 }
 
 h2 {
@@ -57,7 +54,7 @@ nav {
   margin: 0 auto;
 }
 
-.nav-logo>img {
+.nav-logo > img {
   max-height: 4em;
 }
 
@@ -67,7 +64,6 @@ a {
 
 a:hover {
   color: yellow;
-
 }
 
 a:active {
@@ -106,7 +102,7 @@ a.nav-link:visited {
   color: #f0f0f0;
 }
 
-.nav-link+.nav-link {
+.nav-link + .nav-link {
   margin-left: 2em;
 }
 
@@ -114,22 +110,8 @@ a.nav-link:visited {
   margin-left: auto;
 }
 
-.container {
-  padding-top: var(--gap-size);
-  padding-bottom: var(--gap-size);
-  width: 72em;
-  margin: 0 auto;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: var(--gap-size);
-  grid-row-gap: var(--gap-size);
-  column-gap: var(--gap-size);
-  row-gap: var(--gap-size);
-}
-
 article {
-  background-color: rgba(1, 1, 1, 0.80);
+  background-color: rgba(1, 1, 1, 0.8);
   backdrop-filter: blur(3px);
   padding: 1em var(--gap-size) var(--gap-size) var(--gap-size);
   border-radius: 0.5em;
@@ -147,53 +129,65 @@ article {
   overscroll-behavior-y: contain;
 }
 
+.container {
+  padding-top: var(--gap-size);
+  padding-bottom: var(--gap-size);
+  width: 72em;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: var(--gap-size);
+  grid-row-gap: var(--gap-size);
+  column-gap: var(--gap-size);
+  row-gap: var(--gap-size);
+}
+
 .home {
   background-image: url(/images/home/DSC_0065.jpg);
 }
 
-.home>.container {
-  grid-template-areas: "a a c"
-    "b b d";
+.home > .container {
+  grid-template-areas:
+    'a a c'
+    'b b d';
 }
 
 .concerts {
   background-image: url(/images/home/DSC_0366.jpg);
-
 }
 
-.concerts>.container {
-  grid-template-areas: "a a c"
-    "b b b";
+.concerts > .container {
+  grid-template-areas:
+    'a a c'
+    'b b b';
 }
 
 .about {
   background-image: url(/images/home/DSC_0189.jpg);
 }
 
-.about>.container {
-  grid-template-areas:
-    "a a b";
+.about > .container {
+  grid-template-areas: 'a a b';
 }
 
 .contact {
   background-image: url(/images/home/DSC_0094.jpg);
 }
 
-.contact>.container {
+.contact > .container {
   grid-template-areas:
-    "a a c"
-    "b b c";
+    'a a c'
+    'b b c';
 }
 
 .members {
   background-image: url(/images/home/IMG_0303.jpg);
 }
 
-.members>.container {
-  grid-template-areas:
-    "a a a";
+.members > .container {
+  grid-template-areas: 'a a a';
 }
-
 
 .rehearsals th,
 .rehearsals td {
@@ -201,7 +195,9 @@ article {
   text-align: left;
 }
 
-.rehearsals .date, .rehearsals .time, .rehearsals .venue{
+.rehearsals .date,
+.rehearsals .time,
+.rehearsals .venue {
   white-space: nowrap;
 }
 
@@ -228,50 +224,50 @@ ul {
 }
 
 li::before {
-  content: "\2022";
+  content: '\2022';
   font-weight: bold;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 
-li:nth-of-type(n+1)::before {
+li:nth-of-type(n + 1)::before {
   color: var(--color-purple);
 }
 
-li:nth-of-type(n+2)::before {
+li:nth-of-type(n + 2)::before {
   color: var(--color-blue);
 }
 
-li:nth-of-type(n+3)::before {
+li:nth-of-type(n + 3)::before {
   color: var(--color-green);
 }
 
-li:nth-of-type(n+4)::before {
+li:nth-of-type(n + 4)::before {
   color: var(--color-yellow);
 }
 
-li:nth-of-type(n+5)::before {
+li:nth-of-type(n + 5)::before {
   color: var(--color-red);
 }
 
-li:nth-of-type(5n+1)::before {
+li:nth-of-type(5n + 1)::before {
   color: var(--color-purple);
 }
 
-li:nth-of-type(5n+2)::before {
+li:nth-of-type(5n + 2)::before {
   color: var(--color-blue);
 }
 
-li:nth-of-type(5n+3)::before {
+li:nth-of-type(5n + 3)::before {
   color: var(--color-green);
 }
 
-li:nth-of-type(5n+4)::before {
+li:nth-of-type(5n + 4)::before {
   color: var(--color-yellow);
 }
 
-li:nth-of-type(5n+5)::before {
+li:nth-of-type(5n + 5)::before {
   color: var(--color-red);
 }
 
@@ -301,17 +297,17 @@ li:nth-of-type(5n+5)::before {
     height: 8em;
   }
 
-  .nav-logo{
+  .nav-logo {
     width: 100%;
     display: flex;
     justify-content: space-around;
   }
 
-  .nav-logo>img {
+  .nav-logo > img {
     max-height: 4em;
   }
 
-  .nav-link+.nav-link {
+  .nav-link + .nav-link {
     margin-left: 1em;
   }
 
@@ -320,41 +316,40 @@ li:nth-of-type(5n+5)::before {
     padding: var(--gap-size);
   }
 
-  .home>.container {
+  .home > .container {
     grid-template-areas:
-      "a a a"
-      "c c c"
-      "d d d"
-      "b b b";
+      'a a a'
+      'c c c'
+      'd d d'
+      'b b b';
   }
 
-  .concerts>.container {
+  .concerts > .container {
     grid-template-areas:
-      "a a a"
-      "c c c"
-      "d d d"
-      "b b b";
+      'a a a'
+      'c c c'
+      'd d d'
+      'b b b';
 
     .poster {
       width: 8em;
     }
   }
 
-  .about>.container {
+  .about > .container {
     grid-template-areas:
-      "a a a"
-      "b b b";
+      'a a a'
+      'b b b';
   }
 
-  .contact>.container {
+  .contact > .container {
     grid-template-areas:
-      "a a a"
-      "b b b"
-      "c c c";
+      'a a a'
+      'b b b'
+      'c c c';
   }
 
-  .members>.container {
-    grid-template-areas:
-      "a a a";
+  .members > .container {
+    grid-template-areas: 'a a a';
   }
 }
