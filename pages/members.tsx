@@ -6,6 +6,7 @@ import {
   format12HourTime
 } from '../utils/date';
 import { Navbar } from '../components/Navbar';
+import Head from 'next/head';
 
 interface RehearsalDetails {
   dateFrom: string;
@@ -58,6 +59,16 @@ function Members() {
     allFutureEvents.length === 0 ? pastEvents[0] : allFutureEvents[0];
   return (
     <div className="page members">
+      <Head>
+        <title>Members - Hitchin Chamber Orchestra</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" type="image/png" href="images/hco-favicon.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta
+          name="google-site-verification"
+          content="I_yhcnwxNnEsT3GhY2eFwkxCr17okRt1PhO_xnQ0kgQ"
+        />
+      </Head>
       <Navbar />
       <div className="container">
         <article

@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { Navbar } from '../components/Navbar';
 import eventsData from '../data/events.json';
 import { NextEvent } from '../components/NextEvent';
+import Head from 'next/head';
 
 function Home() {
   const now = Date.now();
@@ -15,6 +16,16 @@ function Home() {
     allFutureEvents.length === 0 ? pastEvents[0] : allFutureEvents[0];
   return (
     <div className="page home">
+      <Head>
+        <title>Welcome - Hitchin Chamber Orchestra</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" type="image/png" href="images/hco-favicon.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta
+          name="google-site-verification"
+          content="I_yhcnwxNnEsT3GhY2eFwkxCr17okRt1PhO_xnQ0kgQ"
+        />
+      </Head>
       <Navbar />
       <div className="container">
         <article

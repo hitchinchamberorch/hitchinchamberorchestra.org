@@ -4,6 +4,7 @@ import { PastEvent } from '../components/PastEvent';
 import { FutureEvent } from '../components/FutureEvent';
 import { NextEvent } from '../components/NextEvent';
 import { Navbar } from '../components/Navbar';
+import Head from 'next/head';
 
 function Concerts() {
   const now = Date.now();
@@ -21,6 +22,16 @@ function Concerts() {
       : null;
   return (
     <div className="page concerts">
+      <Head>
+        <title>Concerts - Hitchin Chamber Orchestra</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" type="image/png" href="images/hco-favicon.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta
+          name="google-site-verification"
+          content="I_yhcnwxNnEsT3GhY2eFwkxCr17okRt1PhO_xnQ0kgQ"
+        />
+      </Head>
       <Navbar />
       <div className="container">
         <article

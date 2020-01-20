@@ -1,10 +1,21 @@
 import React, { FunctionComponent } from 'react';
 import links from '../data/links.json';
 import { Navbar } from '../components/Navbar';
+import Head from 'next/head';
 
 function Contact() {
   return (
     <div className="page contact">
+      <Head>
+        <title>Contact - Hitchin Chamber Orchestra</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" type="image/png" href="images/hco-favicon.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta
+          name="google-site-verification"
+          content="I_yhcnwxNnEsT3GhY2eFwkxCr17okRt1PhO_xnQ0kgQ"
+        />
+      </Head>
       <Navbar />
       <div className="container">
         <article

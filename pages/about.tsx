@@ -1,9 +1,20 @@
 import React, { FunctionComponent } from 'react';
 import { Navbar } from '../components/Navbar';
+import Head from 'next/head';
 
 function About() {
   return (
     <div className="page about">
+      <Head>
+        <title>About - Hitchin Chamber Orchestra</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" type="image/png" href="images/hco-favicon.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta
+          name="google-site-verification"
+          content="I_yhcnwxNnEsT3GhY2eFwkxCr17okRt1PhO_xnQ0kgQ"
+        />
+      </Head>
       <Navbar />
       <div className="container">
         <article
