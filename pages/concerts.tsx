@@ -39,7 +39,7 @@ function Concerts() {
             gridArea: 'a'
           }}
         >
-          {/*<img src="/images/2019-11-16-poster.jpg" className="poster" alt="" />*/}
+          <img src="/images/TheSilverChainOfSound.jpg" className="poster" alt="" />
           <h2>Next concert</h2>
           <NextEvent {...nextEvent} />
           {/*<p>
