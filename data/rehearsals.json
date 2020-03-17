@@ -36,17 +36,17 @@
       {
         "dateFrom": "2020-03-20T19:30:00",
         "dateTo": "2020-03-20T22:00:00",
-        "venue": "Christchurch",
-        "notes": ""
+        "venue": "Christchurch  ",
+        "notes": "CANCELLED"
       },
       {
         "dateFrom": "2020-03-21T14:30:00",
         "dateTo": "2020-03-21T17:00:00",
         "venue": "Hitchin Town Hall",
-        "notes": ""
+        "notes": "CANCELLED"
       }
     ],
-    "notes": ""
+    "notes": "This concert has been cancelled."
   },
   {
     "name": "Before the Romance",

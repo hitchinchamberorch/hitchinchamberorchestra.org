@@ -34,11 +34,10 @@ function Home() {
           }}
         >
           <h2>Hitchin Chamber Orchestra</h2>
-          <div className="emergency-banner">
-          <div className="emergency-banner-header"><h3>COVID-19 UPDATE - The Silver Chain of Sound - 21st March 2020</h3></div>
-          <h4>It is with a heavy heart that we are cancelling our concert this weekend.<br/>
+          <div className="emergency-banner-header"><h3>COVID-19 Update - HCO Concert - Saturday 21 March 2020</h3></div>
+          <div className="emergency-banner"><h4>It is with a heavy heart that we are cancelling our concert this weekend.<br/>
           Tickets purchased from Hitchin Initiative - please return with proof of purchase.<br/>
-          Tickets purchased from EventBrite - refunds will be issued automatically.<br/>
+          Tickets purchased from Eventbrite - refunds will be issued automatically.<br/>
           For any other queries, please <a href="mailto:hitchinchamberorch@gmail.com">email us</a>.</h4></div>
           <p>
             A friendly string orchestra based in Hitchin aiming to present high
