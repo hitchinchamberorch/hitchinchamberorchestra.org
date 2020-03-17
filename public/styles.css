@@ -59,6 +59,15 @@ nav {
   max-height: 4em;
 }
 
+.emergency-banner-header {
+  text-decoration: underline;
+  color:yellow
+}
+
+.emergency-banner {
+  color: red;
+}
+
 a {
   color: #f0f0f0;
 }
