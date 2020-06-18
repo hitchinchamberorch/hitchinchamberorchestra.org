@@ -1,99 +1,96 @@
-[
-  {
-    "name": "",
-    "date": "2020-07-04T19:30:00",
-    "rehearsals": [],
-    "notes": ""
-  },
-  {
-    "name": "The Silver Chain of Sound",
-    "date": "2020-03-21T19:30:00",
-    "rehearsals": [
-      {
-        "dateFrom": "2020-01-31T19:30:00",
-        "dateTo": "2020-01-31T22:00:00",
-        "venue": "Christchurch",
+[{
+        "name": "",
+        "date": "2020-12-12T19:30:00",
+        "rehearsals": [],
         "notes": ""
-      },
-      {
-        "dateFrom": "2020-02-14T19:30:00",
-        "dateTo": "2020-02-14T22:00:00",
-        "venue": "Christchurch",
-        "notes": ""
-      },
-      {
-        "dateFrom": "2020-02-28T19:30:00",
-        "dateTo": "2020-02-28T22:00:00",
-        "venue": "Christchurch",
-        "notes": "Sectionals"
-      },
-      {
-        "dateFrom": "2020-03-13T19:30:00",
-        "dateTo": "2020-03-13T22:00:00",
-        "venue": "Christchurch",
-        "notes": ""
-      },
-      {
-        "dateFrom": "2020-03-20T19:30:00",
-        "dateTo": "2020-03-20T22:00:00",
-        "venue": "Christchurch  ",
-        "notes": "CANCELLED"
-      },
-      {
-        "dateFrom": "2020-03-21T14:30:00",
-        "dateTo": "2020-03-21T17:00:00",
-        "venue": "Hitchin Town Hall",
-        "notes": "CANCELLED"
-      }
-    ],
-    "notes": "This concert has been cancelled."
-  },
-  {
-    "name": "Before the Romance",
-    "date": "2019-11-16T19:30:00",
-    "rehearsals": [
-      {
-        "dateFrom": "2019-10-04T19:30:00",
-        "dateTo": "2019-10-04T22:00:00",
-        "venue": "Tilehouse Street Baptist Church",
-        "notes": "Strings only, no wind - Mozart first*"
-      },
-      {
-        "dateFrom": "2019-10-05T14:30:00",
-        "dateTo": "2019-10-05T17:00:00",
-        "venue": "Tilehouse Street Baptist Church (In Church Hall)",
-        "notes": "Strings only coaching session with David Waterman"
-      },
-      {
-        "dateFrom": "2019-10-11T19:30:00",
-        "dateTo": "2019-10-11T22:00:00",
-        "venue": "Tilehouse Street Baptist Church (In Church Hall)",
-        "notes": "Strings only, no wind - Mozart first*"
-      },
-      {
-        "dateFrom": "2019-10-25T19:30:00",
-        "dateTo": "2019-10-25T22:00:00",
-        "venue": "Tilehouse Street Baptist Church",
-        "notes": "Mozart last*"
-      },
-      {
-        "dateFrom": "2019-11-08T19:30:00",
-        "dateTo": "2019-11-08T22:00:00",
-        "venue": "Tilehouse Street Baptist Church",
-        "notes": "Mozart last*"
-      },
-      {
-        "dateFrom": "2019-11-15T19:30:00",
-        "dateTo": "2019-11-15T22:00:00",
-        "venue": "Tilehouse Street Baptist Church",
-        "notes": "Mozart last*"
-      },
-      {
-        "dateFrom": "2019-11-16T14:30:00",
-        "dateTo": "2019-11-16T17:00:00",
-        "venue": "St Mary's Church"
-      }
-    ],
-    "notes": "* For our extra string players, on the dates when the Mozart is at the end, please arrive by 9:15pm.  For our wind players, when the Mozart is at the beginning, please arrive by 8pm."
-  }
+    },
+    {
+        "name": "The Silver Chain of Sound",
+        "date": "2020-03-21T19:30:00",
+        "rehearsals": [{
+                "dateFrom": "2020-01-31T19:30:00",
+                "dateTo": "2020-01-31T22:00:00",
+                "venue": "Christchurch",
+                "notes": ""
+            },
+            {
+                "dateFrom": "2020-02-14T19:30:00",
+                "dateTo": "2020-02-14T22:00:00",
+                "venue": "Christchurch",
+                "notes": ""
+            },
+            {
+                "dateFrom": "2020-02-28T19:30:00",
+                "dateTo": "2020-02-28T22:00:00",
+                "venue": "Christchurch",
+                "notes": "Sectionals"
+            },
+            {
+                "dateFrom": "2020-03-13T19:30:00",
+                "dateTo": "2020-03-13T22:00:00",
+                "venue": "Christchurch",
+                "notes": ""
+            },
+            {
+                "dateFrom": "2020-03-20T19:30:00",
+                "dateTo": "2020-03-20T22:00:00",
+                "venue": "Christchurch  ",
+                "notes": "CANCELLED"
+            },
+            {
+                "dateFrom": "2020-03-21T14:30:00",
+                "dateTo": "2020-03-21T17:00:00",
+                "venue": "Hitchin Town Hall",
+                "notes": "CANCELLED"
+            }
+        ],
+        "notes": "This concert has been cancelled."
+    },
+    {
+        "name": "Before the Romance",
+        "date": "2019-11-16T19:30:00",
+        "rehearsals": [{
+                "dateFrom": "2019-10-04T19:30:00",
+                "dateTo": "2019-10-04T22:00:00",
+                "venue": "Tilehouse Street Baptist Church",
+                "notes": "Strings only, no wind - Mozart first*"
+            },
+            {
+                "dateFrom": "2019-10-05T14:30:00",
+                "dateTo": "2019-10-05T17:00:00",
+                "venue": "Tilehouse Street Baptist Church (In Church Hall)",
+                "notes": "Strings only coaching session with David Waterman"
+            },
+            {
+                "dateFrom": "2019-10-11T19:30:00",
+                "dateTo": "2019-10-11T22:00:00",
+                "venue": "Tilehouse Street Baptist Church (In Church Hall)",
+                "notes": "Strings only, no wind - Mozart first*"
+            },
+            {
+                "dateFrom": "2019-10-25T19:30:00",
+                "dateTo": "2019-10-25T22:00:00",
+                "venue": "Tilehouse Street Baptist Church",
+                "notes": "Mozart last*"
+            },
+            {
+                "dateFrom": "2019-11-08T19:30:00",
+                "dateTo": "2019-11-08T22:00:00",
+                "venue": "Tilehouse Street Baptist Church",
+                "notes": "Mozart last*"
+            },
+            {
+                "dateFrom": "2019-11-15T19:30:00",
+                "dateTo": "2019-11-15T22:00:00",
+                "venue": "Tilehouse Street Baptist Church",
+                "notes": "Mozart last*"
+            },
+            {
+                "dateFrom": "2019-11-16T14:30:00",
+                "dateTo": "2019-11-16T17:00:00",
+                "venue": "St Mary's Church"
+            }
+        ],
+        "notes": "* For our extra string players, on the dates when the Mozart is at the end, please arrive by 9:15pm.  For our wind players, when the Mozart is at the beginning, please arrive by 8pm."
+    }
 ]
