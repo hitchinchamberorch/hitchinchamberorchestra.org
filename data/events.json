@@ -1,51 +1,18 @@
 [{
-        "season": "2020/2021",
-        "name": "",
+        "season": "2021/2022",
+        "name": "Christmas Concert",
         "description": "",
-        "date": "2020-12-12T19:30:00",
+        "date": "2021-12-18T00:00:00",
         "venue": {
             "name": "St Mary's Church, Hitchin",
             "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
         },
         "ticketsUrl": "",
         "programme": [{
-            "composer": "",
-            "title": "",
-            "notes": "TBC"
+            "composer": "Corelli",
+            "title": "Christmas Concerto",
+            "notes": ""
         }]
-    },
-    {
-        "season": "2019/2020",
-        "name": "CANCELLED - The Silver Chain of Sound",
-        "description": "",
-        "date": "2020-03-21T19:30:00",
-        "venue": {
-            "name": "Hitchin Town Hall",
-            "address": ["Brand Street", "Hitchin", "SG5 1JE"]
-        },
-        "ticketsUrl": "",
-        "programme": [{
-                "composer": "Vaughan Williams",
-                "title": "The Lark Ascending",
-                "notes": "Soloist - Sofia Kolupov"
-            },
-            {
-                "composer": "Warlock",
-                "title": "Capriol Suite",
-                "notes": ""
-            },
-            {
-                "composer": "Holst",
-                "title": "A Moorside Suite",
-                "notes": ""
-            },
-            {
-                "composer": "Gershwin",
-                "title": "Lullaby",
-                "notes": ""
-            }
-        ],
-        "conductor": "Richard Dickins"
     },
     {
         "season": "2019/2020",

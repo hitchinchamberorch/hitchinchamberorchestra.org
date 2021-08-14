@@ -14,4 +14,4 @@ export const formatAbbrDate = (date: DateOrString) =>
   formatDate(date, 'eee dd MMM yyyy');
 
 export const formatLongDate = (date: DateOrString) =>
-  formatDate(date, 'eeee dd MMMM yyyy');
+  formatDate(date, 'eeee do MMMM yyyy');

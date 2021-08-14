@@ -1,50 +1,38 @@
 [{
-        "name": "",
-        "date": "2020-12-12T19:30:00",
-        "rehearsals": [],
-        "notes": ""
-    },
-    {
-        "name": "The Silver Chain of Sound",
-        "date": "2020-03-21T19:30:00",
+        "name": "Christmas Concert",
+        "date": "2021-12-18T00:00:00",
         "rehearsals": [{
-                "dateFrom": "2020-01-31T19:30:00",
-                "dateTo": "2020-01-31T22:00:00",
-                "venue": "Christchurch",
-                "notes": ""
-            },
-            {
-                "dateFrom": "2020-02-14T19:30:00",
-                "dateTo": "2020-02-14T22:00:00",
-                "venue": "Christchurch",
-                "notes": ""
-            },
-            {
-                "dateFrom": "2020-02-28T19:30:00",
-                "dateTo": "2020-02-28T22:00:00",
-                "venue": "Christchurch",
-                "notes": "Sectionals"
-            },
-            {
-                "dateFrom": "2020-03-13T19:30:00",
-                "dateTo": "2020-03-13T22:00:00",
-                "venue": "Christchurch",
-                "notes": ""
-            },
-            {
-                "dateFrom": "2020-03-20T19:30:00",
-                "dateTo": "2020-03-20T22:00:00",
-                "venue": "Christchurch  ",
-                "notes": "CANCELLED"
-            },
-            {
-                "dateFrom": "2020-03-21T14:30:00",
-                "dateTo": "2020-03-21T17:00:00",
-                "venue": "Hitchin Town Hall",
-                "notes": "CANCELLED"
-            }
+            "dateFrom": "2021-11-19T19:30:00",
+            "dateTo": "2021-11-19T22:00:00",
+            "venue": "Christchurch",
+            "notes": ""
+          },
+          {
+            "dateFrom": "2021-11-26T19:30:00",
+            "dateTo": "2021-11-26T22:00:00",
+            "venue": "Christchurch",
+            "notes": ""
+          },
+          {
+            "dateFrom": "2021-12-10T19:30:00",
+            "dateTo": "2021-12-10T22:00:00",
+            "venue": "Christchurch",
+            "notes": ""
+          },
+          {
+            "dateFrom": "2021-12-17T19:30:00",
+            "dateTo": "2021-12-17T22:00:00",
+            "venue": "Christchurch",
+            "notes": ""
+          },
+          {
+            "dateFrom": "2021-12-18T00:00:00",
+            "dateTo": "2021-12-18T00:00:00",
+            "venue": "St Mary's Church",
+            "notes": "Rehearsal & Concert times TBC"
+          }
         ],
-        "notes": "This concert has been cancelled."
+        "notes": ""
     },
     {
         "name": "Before the Romance",

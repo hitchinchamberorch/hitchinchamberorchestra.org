@@ -97,18 +97,18 @@ function About() {
           <h2>Who's Who</h2>
           <h3>Committee</h3>
           <ul>
-            <li>Chairman – Catriona Bevan</li>
-            <li>Secretary – Tom Ayres</li>
-            <li>Treasurer – Paul Reynard</li>
-            <li>
-              Orchestra representatives – Elly Dobson, Vanessa Gaidoni, Jan
-              Tothill, Ros Woodin, Shannon St.Luce
-            </li>
-            <li>Music Director/Leader (ex officio) – Nick Evans-Pughe</li>
+            <li>Catriona Bevan [Chair]</li>
+            <li>Tom Ayres [Secretary]</li>
+            <li>Paul Reynard [Treasurer]</li>
+            <li>Ros Boswell</li>
+            <li>Vanessa Gaidoni</li>
+            <li>Shannon St. Luce</li>
+            <li>Jan Tothill</li>
+            <li>Ros Woodin</li>
           </ul>
           <h3>Administrative roles</h3>
           <ul>
-            <li>Librarian – Elly Dobson</li>
+            <li>Librarian – Shannon St. Luce</li>
             <li>Publicity – Vanessa Gaidoni / Ros Woodin</li>
             <li>Social secretary – Catriona Bevan</li>
             <li>Programme production – Christian Turton</li>
@@ -117,16 +117,9 @@ function About() {
             <li>Orchestra Manager (fixer) – Jan Tothill</li>
             <li>Orchestra Manager (concert day) – Paul Reynard</li>
             <li>Programme Notes – Jan Tothill</li>
-            <li>Tickets – Shannon St Luce</li>
+            <li>Tickets – Shannon St. Luce</li>
             <li>Tilehouse Street link – Paul Reynard</li>
             <li>Poster design – Charley Gaidoni</li>
-          </ul>
-          <h3>Repertoire Group</h3>
-          <ul>
-            <li>
-              Nick Evans-Pughe, Vanessa Gaidoni, Helen Lord, Jan Tothill,
-              Catriona Bevan
-            </li>
           </ul>
           <p>
             The committee meets a minimum of six times a year and an AGM of the
