@@ -30,10 +30,8 @@ function Contact() {
             commitment to achieving the highest standards is widely recognised
             as is our ethos of encouraging and enabling all members to develop
             and enjoy their playing as fully as possible. If you would like to
-            play with the orchestra or find out more about us, please send a
-            message to{' '}
-            <a href="mailto:hitchinchamberorch@gmail.com">Nick Evans-Pughe</a>{' '}
-            (Musical Director) who will be delighted to get in touch.
+            play with the orchestra or find out more about us, please{' '}
+            <a href="mailto:hitchinchamberorch@gmail.com">email us</a>{' '} to get in touch.
           </p>
           <img src="/images/DSC_0386.jpg" className="photo" alt="" />
           <p>
@@ -77,8 +75,7 @@ function Contact() {
             {links.map((link, index) => (
               <li key={index}>
                 <a href={link.url}>
-                  {link.name}
-                  {link.notes && `(${link.notes})`}
+                  {link.name} {link.notes && `(${link.notes})`}
                 </a>
               </li>
             ))}

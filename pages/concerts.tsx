@@ -89,7 +89,7 @@ function Concerts() {
             ))}
           <p>
             If you would like to receive advance notice of our concerts, please{' '}
-            <a href="mailto:concerts@hitchinchamberorchestra.org?subject=Concert+notifications&body=I would like to receive advance notice of HCO's concerts.">
+            <a href="mailto:hitchinchamberorch@gmail.com?subject=Concert+notifications&body=I would like to receive advance notice of HCO's concerts.">
               email us
             </a>{' '}
             and we will add you to our mailing list.
