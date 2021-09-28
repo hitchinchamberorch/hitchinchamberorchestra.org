@@ -33,9 +33,9 @@ function Home() {
             gridArea: 'a'
           }}
         >
-          <div className="emergency-banner-header"><h3>Members Update - 13/08/2021</h3></div>
+          {/* <div className="emergency-banner-header"><h3>Members Update - 13/08/2021</h3></div>
           <div className="emergency-banner"><p>Our repertoire day will take place on <u>Saturday 25th September</u>.<br/>
-          Please look out for the sign-up email over the next couple weeks!<br/></p></div>
+          Please look out for the sign-up email over the next couple weeks!<br/></p></div> */}
           <h2>Hitchin Chamber Orchestra</h2>
           <p>
             A friendly string orchestra based in Hitchin aiming to present high

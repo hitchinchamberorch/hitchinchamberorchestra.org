@@ -1,10 +1,11 @@
 [{
         "season": "2021/2022",
-        "name": "Christmas Concert",
+        "name": "Christmas... and all that jazz!",
         "description": "",
-        "date": "2021-12-18T00:00:00",
+        "date": "2021-12-18T16:30:00",
+        "date2": "2021-12-18T19:30:00",
         "venue": {
-            "name": "St Mary's Church, Hitchin",
+            "name": "4.30pm & 7.30pm - St Mary's Church, Hitchin",
             "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
         },
         "ticketsUrl": "",

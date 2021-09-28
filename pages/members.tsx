@@ -77,7 +77,7 @@ function Members() {
           }}
         >
           <h2>Rehearsal Schedule</h2>
-          <div className="emergency-banner"><p>Our repertoire day will take place on <b><u>Saturday 25th September</u></b>.<br/></p></div>
+          {/* <div className="emergency-banner"><p>Our repertoire day will take place on <b><u>Saturday 25th September</u></b>.<br/></p></div> */}
           <p>
             For
             <strong> {nextEvent.name} </strong>

@@ -12,7 +12,7 @@ export const NextEvent: FunctionComponent<EventData> = ({
   const displayDate = formatLongDate(date);
   return (
     <div>
-      <h3>{name}</h3>
+      <h3><div className="emergency-banner">{name}</div></h3>
       <h4>
         {displayDate}
         <br /> {venue.name}
