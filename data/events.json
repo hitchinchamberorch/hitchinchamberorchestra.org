@@ -8,11 +8,21 @@
             "name": "4.30pm & 7.30pm - St Mary's Church, Hitchin",
             "address": ["Churchyard Walk", "Hitchin", "SG5 1DW"]
         },
-        "ticketsUrl": "",
+        "ticketsUrl": "https://www.eventbrite.co.uk/e/christmas-and-all-that-jazz-tickets-189159640577?aff=webs",
         "programme": [{
-            "composer": "Corelli",
-            "title": "Christmas Concerto",
-            "notes": ""
+          "composer": "Corelli",
+          "title": "Christmas Concerto",
+          "notes": ""
+        },
+        {
+          "composer": "Leroy Anderson",
+          "title": "Sleigh Ride",
+          "notes": ""
+        },
+        {
+          "composer": "Traditional",
+          "title": "Carols",
+          "notes": "and Christmas schmaltz!"
         }]
     },
     {
